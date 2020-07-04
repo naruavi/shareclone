@@ -11,5 +11,28 @@
         android:name="com.sharetest.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_send_btn"
+            app:destination="@+id/navigation_select_file"/>
+        <action
+            android:id="@+id/action_receive_btn"
+            app:destination="@id/navigation_select_file" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_select_file"
+        android:name="com.sharetest.SelectFileFragment"
+        android:label="fragment_select_file"
+        tools:layout="@layout/fragment_select_file">
+        <action
+            android:id="@+id/select_file_next_btn"
+            app:destination="@+id/navigation_send_preparation"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_send_preparation"
+        android:name="com.sharetest.SendPreparationFragment"
+        android:label="fragment_send_preparation"
+        tools:layout="@layout/fragment_send_preparation">
     </fragment>
 </navigation>
