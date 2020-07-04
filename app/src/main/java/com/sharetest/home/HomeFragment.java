@@ -1,4 +1,4 @@
-package com.sharetest;
+package com.sharetest.home;
 
 import android.os.Bundle;
 

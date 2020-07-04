@@ -1,4 +1,4 @@
-package com.sharetest
+package com.sharetest.design
 
 import android.content.Context
 import android.graphics.*
@@ -57,7 +57,8 @@ class CircularImageView @JvmOverloads constructor(
             manageCircleColor()
             invalidate()
         }
-    var circleColorDirection: GradientDirection = GradientDirection.LEFT_TO_RIGHT
+    var circleColorDirection: GradientDirection =
+        GradientDirection.LEFT_TO_RIGHT
         set(value) {
             field = value
             manageCircleColor()
@@ -86,7 +87,8 @@ class CircularImageView @JvmOverloads constructor(
             manageBorderColor()
             invalidate()
         }
-    var borderColorDirection: GradientDirection = GradientDirection.LEFT_TO_RIGHT
+    var borderColorDirection: GradientDirection =
+        GradientDirection.LEFT_TO_RIGHT
         set(value) {
             field = value
             manageBorderColor()
@@ -103,7 +105,8 @@ class CircularImageView @JvmOverloads constructor(
             paintShadow.color = field
             invalidate()
         }
-    var shadowGravity = ShadowGravity.BOTTOM
+    var shadowGravity =
+        ShadowGravity.BOTTOM
         set(value) {
             field = value
             invalidate()
