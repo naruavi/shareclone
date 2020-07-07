@@ -11,4 +11,10 @@
     <string name="send_preparation">Send Preparation</string>
     <string name="open_bluetooth">Open bluetooth</string>
     <string name="open_wifi">Open WIFI</string>
+    <string name="text_requestPermissionStorageSummary">This permission allows shareAll to read and write to your device\\\'s storage for receiving and sharing files.</string>
+    <string name="text_requestPermissionStorage">Storage permission</string>
+    <string name="butn_settings">Settings</string>
+    <string name="butn_ask">Ask</string>
+    <string name="butn_reject">Reject</string>
+    <string name="butn_close">Close</string>
 </resources>
